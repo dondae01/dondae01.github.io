@@ -1,49 +1,32 @@
-Welcome to dondae01.github.io
+# Daegan Pimenta — Data & AI Portfolio
 
-This is the personal website of Daegan, showcasing projects, insights, and work related to machine learning, explainable AI, and data science.
+Analytics and machine learning projects, each with the code, the data and a written summary of what I found.
 
-Project Highlights
+## Projects
 
-1. Explainable AI (XAI) in Predictive Modeling
-- Overview: Implemented a RandomForest model to detect fraudulent transactions, with a focus on explainability using SHAP and LIME.
-- Goal: Provide transparency and interpretability of model predictions to ensure trust and insight into key factors driving predictions.
-- [Read the Full Summary](xai_summary.md)
+### 1. Explainable AI in Fraud Detection
+A RandomForest model that flags fraudulent credit card transactions, explained with SHAP and LIME so that a non-technical reviewer can see why each prediction was made. Includes a bias and limitations review.
 
-2.Customer Segmentation Analysis Using RFM in SQL
+- **Tools:** Python, scikit-learn, SHAP, LIME
+- [Summary](xai_summary.md) · [Model code](code/xai_model.py) · [Explainability code](code/xai_explainability.py)
 
-- Overview: Performed customer segmentation for a retail dataset using Recency, Frequency, and Monetary (RFM) analysis to understand customer behavior.
+### 2. Customer Segmentation in SQL (RFM)
+Segments 4,372 customers of a UK online retailer from 406,829 transaction lines. The top segment is 39% of customers and 81% of revenue.
 
-- Goal: Identify key customer groups and tailor marketing strategies to maximize business value.
+- **Tools:** SQL (SQLite, window functions), Python (Pandas, Seaborn)
+- [Summary](Customer_Segmentation_Analysis_in_SQL_summary.md) · [Notebook](code/CSA-SQL.ipynb)
 
-- Key Insights: Identified the most valuable customers, developed targeted marketing strategies, and analyzed customer purchase behavior.
+### 3. Crypto Market Trends Dashboard
+A Tableau dashboard of market cap, price against 24-hour volume, and 24-hour gainers and losers, built on data pulled from the CoinGecko API with Python.
 
-[Read the Full Summary](Customer_Segmentation_Analysis_in_SQL_summary.md)
+- **Tools:** Tableau, Python, CoinGecko API
+- [Summary](Crypto_Market_Trends_Dashboard_Summary.md)
 
-3. Crypto Market Trends Dashboard
-This Tableau dashboard visualizes cryptocurrency market trends using key metrics:
+## More of my work
+- [AI Business Intelligence Assistant](https://github.com/dondae01/AI_BI_Assistant): anomaly detection and plain-language insights with the Gemini API
+- [AI Trading Council](https://github.com/dondae01/AI_Trading_Council): a multi-agent system with a locked evaluation framework
 
-- Market Cap Distribution: Ranks the top cryptocurrencies by market capitalization.
-- Price vs. 24h Volume: Highlights the relationship between price and trading volume.
-- 24h Price Change Heatmap: Shows the top gainers and losers over the last 24 hours.
+## About me
+I'm a data and AI analyst in Toronto with a post-graduate diploma in Business Insights & Analytics. I've built data pipelines and forecasting for a non-profit, evaluated AI outputs for large tech clients, and taught AI literacy to staff.
 
-The dashboard provides a clear, interactive view of the crypto market’s performance.
-
-[Read the Full Summary](Crypto_Market_Trends_Summary.md)
-
-Other Projects
-- More projects will be added here as they are completed, highlighting key skills in data analysis, machine learning, and software development.
-
-About Me
-I am an aspiring business analyst and machine learning enthusiast, passionate about leveraging technology to gain actionable insights and solve real-world problems.
-
-Feel free to explore this website to learn more about my projects and experience!
-
-Contact
-You can reach me through GitHub or connect on [LinkedIn] (https://www.linkedin.com/in/daeganpimenta/) for more information or collaboration opportunities.
-
-How This Site Was Built
-This website is hosted using GitHub Pages and built using a combination of Markdown for project summaries and HTML/CSS for styling.
-
-Repository Link
-- [GitHub Repository for This Site](https://github.com/dondae01/dondae01.github.io)
-
+[LinkedIn](https://www.linkedin.com/in/daeganpimenta/) · daeganpimenta@gmail.com
